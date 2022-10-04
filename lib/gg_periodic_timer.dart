@@ -1,8 +1,5 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
+/// A periodic timer that can be started, stopped, restarted.
+/// Also multiple listeners are possible.
 library gg_periodic_timer;
 
-export 'src/gg_periodic_timer_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/gg_periodic_timer.dart';
