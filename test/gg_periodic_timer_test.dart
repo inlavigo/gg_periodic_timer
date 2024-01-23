@@ -109,7 +109,8 @@ void main() {
         () => counter++,
       );
 
-      // Call fire -> onTimerFired will not be called because timer is not started.
+      // Call fire -> onTimerFired will not be called because timer is not
+      // started.
       timer.fire();
       expect(counter, expectedCounter);
 

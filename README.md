@@ -1,3 +1,5 @@
+# GgPeriodicTimer
+
 A timer that can be started, stopped and restarted again.
 Also multiple listners can be added.
 

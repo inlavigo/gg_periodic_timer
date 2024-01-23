@@ -14,6 +14,7 @@ import 'package:meta/meta.dart';
 /// This timer needs to be triggered manually by calling fire().
 /// Use [GgAutoPeriodicTimer] to create a timer that fires automatically.
 class GgPeriodicTimer {
+  /// Constructor
   GgPeriodicTimer();
 
   /// All listeners
@@ -71,6 +72,7 @@ class GgPeriodicTimer {
 // #############################################################################
 /// A periodic timer that can be started, stopped and started again
 class GgAutoPeriodicTimer extends GgPeriodicTimer {
+  /// Constructor
   GgAutoPeriodicTimer({
     required this.interval,
   });

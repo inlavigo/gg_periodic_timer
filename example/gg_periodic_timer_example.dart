@@ -37,15 +37,15 @@ void main() async {
   /// Start the timer
   autoTimer.start();
 
-  /// Wait five frames
-  await Future.delayed(oneFrame * 5);
+  // Wait five frames
+  await Future<void>.delayed(oneFrame * 5);
 
-  /// Output:
-  ///   Auto timer fired.
-  ///   Auto timer fired.
-  ///   Auto timer fired.
-  ///   Auto timer fired.
-  ///   Auto timer fired.
-  ///
+  // Output:
+  //   Auto timer fired.
+  //   Auto timer fired.
+  //   Auto timer fired.
+  //   Auto timer fired.
+  //   Auto timer fired.
+  //
   autoTimer.stop();
 }
