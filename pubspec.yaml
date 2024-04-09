@@ -1,6 +1,6 @@
 name: gg_periodic_timer
 description: A timer that can be started, stopped and restarted again. Also multiple listners can be added.
-version: 1.0.2
+version: 1.0.3
 repository: https://github.com/inlavigo/gg_periodic_timer
 
 environment:
